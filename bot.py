@@ -73,12 +73,12 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/JoinOT"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+                        InlineKeyboardButton("Support Group", url="https://t.me/findhubsupport"),
+                        InlineKeyboardButton("Find Hub", url="https://telegram.me/find_hub")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                  
+                
                     ]
                 ]
             )
@@ -318,8 +318,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/AbirHasan2005/PyroFilesStoreBot")
+                        InlineKeyboardButton("Find Hub",
+                                             url="https://telegram.me/find_hub")
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
@@ -337,11 +337,11 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/AbirHasan2005/PyroFilesStoreBot")
+                        InlineKeyboardButton("Find Hub",
+                                             url="https://telegram.me/find_hub")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
+                        InlineKeyboardButton("About Us", callback_data="aboutbot"),
                         InlineKeyboardButton("Go Home", callback_data="gotohome")
                     ]
                 ]
@@ -356,12 +356,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/JoinOT"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+                        InlineKeyboardButton("Support Group", url="https://t.me/findhubsupport"),
+                        InlineKeyboardButton("Find Hub", url="https://t.me/find_hub")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                     
+                        
                     ]
                 ]
             )
@@ -414,12 +414,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/JoinOT"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+                        InlineKeyboardButton("Support Group", url="https://t.me/findhubsupport"),
+                        InlineKeyboardButton("Find Hub", url="https://t.me/find_hub")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+               
+
                     ]
                 ]
             )
